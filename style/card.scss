@@ -1,4 +1,4 @@
-.product-card{
+.product-card {
     box-sizing: border-box;
     height: 366px;
     transition: all 1s ease-out;
@@ -29,12 +29,14 @@
         line-height: 21px;
         color: #1D1D1D;
     }
+
+    &:hover {
+        transform: scale(1.04);
+    }
 }
- .product-card:hover {
-    transform: scale(1.04);
- }
+
 
 .card-link {
-    display:block;
+    display: block;
     text-decoration: none;
 }
